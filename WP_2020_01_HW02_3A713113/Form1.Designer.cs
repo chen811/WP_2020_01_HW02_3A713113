@@ -40,7 +40,7 @@ namespace WP_2020_01_HW02_3A713113
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(318, 292);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "抽排!";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -53,7 +53,6 @@ namespace WP_2020_01_HW02_3A713113
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            //this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form1
             // 
