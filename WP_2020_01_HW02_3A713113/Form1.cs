@@ -16,6 +16,7 @@ namespace WP_2020_01_HW02_3A713113
         List<Image> chen = new List<Image>();
         int check = 0;
         
+
         public Form1()
         {
             InitializeComponent();
