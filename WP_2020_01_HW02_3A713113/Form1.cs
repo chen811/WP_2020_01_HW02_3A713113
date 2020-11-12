@@ -14,7 +14,7 @@ namespace WP_2020_01_HW02_3A713113
     public partial class Form1 : Form
     {
         List<Image> chen = new List<Image>();
-        int check = 0;
+        int a= 0;
         
 
         public Form1()
@@ -80,27 +80,27 @@ namespace WP_2020_01_HW02_3A713113
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            int xindex = (new Random()).Next(51) + 1;//產生亂數
-            int y = (new Random()).Next(4) + 1;
-            if (check != xindex)//檢查是否與上張牌相同
+            int x = (new Random()).Next(51) + 1;//產生亂數
+            int y = (new Random()).Next(5);
+            if (a != x)
             {
-                pictureBox1.Image = chen[xindex];
-                check = xindex;
+                pic1.Image = chen[x];
+
+                a = x;
             }
-            else//相同的話
+            else
             {
-                if (xindex >= check)
+                if (x >= a)
                 {
-                    pictureBox1.Image = chen[xindex - y];
+                    pic1.Image = chen[x - y];
                 }
-                if (xindex <= check)
-                {
-                    pictureBox1.Image = chen[xindex + y];
-                }
+               
 
 
             }
-
-       
+            
+           rtb1.Text = x + "\n";
+            int c = x;
         }
+        
     } }
