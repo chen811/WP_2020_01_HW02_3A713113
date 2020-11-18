@@ -80,7 +80,7 @@ namespace WP_2020_01_HW02_3A713113
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            int x = (new Random()).Next(51) + 1;//產生亂數
+            int x = (new Random()).Next(51) + 1;//產生 亂數
             int y = (new Random()).Next(5);
             if (a != x)
             {
